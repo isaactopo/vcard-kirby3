@@ -1,0 +1,19 @@
+{
+    "name": "isaactopo/vcard-kirby3",
+    "description": "VCard Plugin for Kirby 3",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isaac Bordons",
+            "email": "isaac@topo.bz"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1",
+        "jeroendesloovere/vcard": ""
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
