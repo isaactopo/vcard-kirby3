@@ -1,6 +1,8 @@
 # VCard Plugin for Kirby 3
 Easily generate VCard for your contact profiles
 
+![](https://avatars3.githubusercontent.com/u/28547180?s=50&v=4)
+
 ## Requirements
 - Kirby V3
 - PHP 7.1+
@@ -69,6 +71,9 @@ You can save the VCard on Dick too:
 $vcard->setSavePath('/path/to/directory');
 $vcard->save();
 ```
+
+## License
+This plugin is free but [Kirby](https://getkirby.com) needs a license
 
 ---
 ### Credits
