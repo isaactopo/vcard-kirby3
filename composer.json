@@ -13,7 +13,7 @@
     "minimum-stability": "dev",
     "require": {
         "getkirby/composer-installer": "^1.1",
-        "jeroendesloovere/vcard": "^1.7.2"
+        "jeroendesloovere/vcard": "*"
     },
     "config": {
         "optimize-autoloader": true
