@@ -1,7 +1,8 @@
 # VCard Plugin for Kirby 3
 Easily generate VCard for your contact profiles
 
-![](https://avatars3.githubusercontent.com/u/28547180?s=50&v=4)
+![Kirby](poster.jpg?v=1)
+
 
 ## Requirements
 - Kirby V3
