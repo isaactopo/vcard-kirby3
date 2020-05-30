@@ -9,6 +9,7 @@
             "email": "isaac@topo.bz"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "getkirby/composer-installer": "^1.1",
         "jeroendesloovere/vcard": "^1.7.2"
