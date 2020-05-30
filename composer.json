@@ -2,6 +2,7 @@
     "name": "isaactopo/vcard-kirby3",
     "description": "VCard Plugin for Kirby 3",
     "type": "kirby-plugin",
+    "version": "0.0.1",
     "license": "MIT",
     "authors": [
         {
