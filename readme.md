@@ -21,6 +21,7 @@ After installing the VCard Plugin you need to create a controller for your page,
 <?php
 
 return function ($page, $pages, $site, $kirby) {
+
     if ($vcard = param('vcard')) {
 
         // Get the VCard Instance
@@ -57,6 +58,7 @@ return function ($page, $pages, $site, $kirby) {
 
         return $vcard->download();
     }
+
 }
 ```
 
