@@ -68,7 +68,7 @@ For Debugging you can echo the VCard as a String
 echo $vcard->getOutput();
 ```
 
-You can save the VCard on Dick too:
+You can save the VCard on Disk too:
 ```php
 // save vcard on disk
 $vcard->setSavePath('/path/to/directory');
