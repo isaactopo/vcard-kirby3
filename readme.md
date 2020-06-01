@@ -75,6 +75,16 @@ $vcard->setSavePath('/path/to/directory');
 $vcard->save();
 ```
 
+## Troubleshooting
+I found certain special characters problems on some servers and solved it specifying:
+```php
+$vcard->setCharset('ISO-8859-1');
+```
+and UTF-Decoding fields:
+```php
+$firstname = utf8_decode($page->firstName());
+```
+
 ## License
 This plugin is free but [Kirby](https://getkirby.com) needs a license
 
