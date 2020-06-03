@@ -10,7 +10,17 @@ Easily generate VCard for your contact profiles
 - ```get_headers()``` configurated on the server by ```allow_url_fopen=1```
 
 ## How to Install
-This is a Wrapper for the [jeroendesloovere/vcard](https://github.com/jeroendesloovere/vcard) library, you can install the latest version with Composer:
+You have three different methods:
+
+### 1. Download
+[Download and copy this repository](https://github.com/isaactopo/vcard-kirby3/archive/master.zip) to ```/site/plugins/vcard-kirby3```
+
+### 2. Git Submodule
+```
+git submodule add https://github.com/isaactopo/vcard-kirby3.git site/plugins/vcard-kirby3
+```
+
+### 3. Composer
 ```
 composer require isaactopo/vcard-kirby3
 ```
@@ -90,5 +100,6 @@ This plugin is free but [Kirby](https://getkirby.com) needs a license
 
 ---
 ### Credits
+This is a Wrapper for the [jeroendesloovere/vcard](https://github.com/jeroendesloovere/vcard) library.
 - [Isaac Bordons](https://github.com/isaactopo)
 - [Jeroen Desloovere](https://github.com/jeroendesloovere)
