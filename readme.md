@@ -12,21 +12,22 @@ Easily generate VCard for your contact profiles
 ## How to Install
 You have three different methods:
 
-### 1. Download
+#### Download
 [Download and copy this repository](https://github.com/isaactopo/vcard-kirby3/archive/master.zip) to ```/site/plugins/vcard-kirby3```
 
-### 2. Git Submodule
+#### Git Submodule
 ```
 git submodule add https://github.com/isaactopo/vcard-kirby3.git site/plugins/vcard-kirby3
 ```
 
-### 3. Composer
+#### Composer
 ```
 composer require isaactopo/vcard-kirby3
 ```
 
 ## Usage
-After installing the VCard Plugin you need to create a controller for your page, for example a profile page: ```site/controllers/profile.php``` : With this controller you can pass a variable to your controller like: yourdomain.com/profile/vcard:download it could be ```download```or whatever you like if the param ```vcard``` is present
+After installing the VCard Plugin you need to create a controller for your page, for example a profile page: ```site/controllers/profile.php``` :
+With this controller you can pass a variable to your controller like: yourdomain.com/profile/vcard:download it could be ```download```or whatever you like if the param ```vcard``` is present
 ```php
 <?php
 
