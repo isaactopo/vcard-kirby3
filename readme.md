@@ -64,7 +64,7 @@ return function ($page, $pages, $site, $kirby) {
         // Add a photo
         if($img = $page->profilePicture()->toFile()){
             $img = $img->crop(400, 400, 85)->save()->root();
-            $vcard->addPhoto($img->url());
+            $vcard->addPhoto($img);
         }
 
         return $vcard->download();
