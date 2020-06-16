@@ -87,6 +87,15 @@ $vcard->save();
 ```
 
 ## Troubleshooting
+
+### VCard Image
+If you have problems attaching the profile image try to pass the image Object instead the Image URL:
+```diff
+- $vcard->addPhoto($img->url());
++ $vcard->addPhoto($img);
+```
+
+### Charset Encoding
 I found certain special characters problems on some servers and solved it specifying:
 ```php
 $vcard->setCharset('ISO-8859-1');
