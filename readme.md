@@ -89,7 +89,7 @@ $vcard->save();
 ## Troubleshooting
 
 ### VCard Image
-If you have problems attaching the profile image try to pass the image Object instead the Image URL:
+If you have problems attaching the profile image try to pass the image item as a parameter instead the image URL:
 ```diff
 - $vcard->addPhoto($img->url());
 + $vcard->addPhoto($img);
